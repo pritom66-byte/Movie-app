@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie-App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <h1 id="logo">CINE<span>VERSE</span></h1>
+      </div>
+
+      <div class="nav-links">
+        <ul>
+          <li>Movies</li>
+        </ul>
+      </div>
+    </nav>
+    <div class="home">
+      <h2 class="home-title">
+        DISCOVER <span class="home-title-span">CINEMA</span>
+      </h2>
+      <p>Search,explore and watch your favorite Movies</p>
+      <div class="input-box">
+        <span class="fa-solid fa-magnifying-glass" id="span input-icon"></span>
+        <input
+          type="text"
+          name=""
+          id="movie-input"
+          placeholder="Movie খোঁজো..." />
+      </div>
+    </div>
+
+    <div class="filter"></div>
+
+    <main>
+      <h3>MOVIES</h3>
+
+      <div id="grid"></div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
